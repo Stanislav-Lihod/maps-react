@@ -1,0 +1,34 @@
+.product {
+  margin: 30px;
+  padding: 30px;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.product section {
+  width: 100%;
+  margin: 6rem auto;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.product h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.product p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.product section a {
+  margin-top: 2rem;
+}
